@@ -1,7 +1,12 @@
 #include <iostream>
 
+constexpr double PI = 3.141592653589793;
+
 double calculateRectangleArea(double width, double height) {
     return width * height;
+}
+double calculateCircleArea(double radius) {
+    return PI * radius * radius;
 }
 
 int main() {
@@ -10,6 +15,10 @@ int main() {
     double w = 5.0, h = 10.0;
     std::cout << "Площадь прямоугольника (" << w << "x" << h << "): " 
               << calculateRectangleArea(w, h) << std::endl;
+
+    double r = 8.5;
+    std::cout << "Площадь круга (r=" << r << "): " 
+              << calculateCircleArea(r) << std::endl;
               
     return 0;
 }
