@@ -11,7 +11,7 @@ int main() {
     double w = 5.0, h = 10.0;
     std::cout << "Площадь прямоугольника (" << w << "x" << h << "): " 
               << calculateRectangleArea(w, h) << std::endl;
-    double r = 7.0;
+    double r = 8.5;
     std::cout << "Площадь круга (r=" << r << "): " 
               << calculateCircleArea(r) << std::endl;
               
