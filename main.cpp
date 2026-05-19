@@ -1,6 +1,6 @@
 #include <iostream>
 
-constexpr double PI = 3.141592653589793;
+constexpr double PI = 3.14;
 
 double calculateRectangleArea(double width, double height) {
     return width * height;
